@@ -11,7 +11,7 @@ CREATE TABLE Students(
 
 
 CREATE TABLE Courses(
-	c_id INT PRIMARY KEY IDENTITY(100, 1),
+	c_id INT PRIMARY KEY IDENTITY(101, 1),
 	course_name VARCHAR(50),
 	c_fees INT
 );
