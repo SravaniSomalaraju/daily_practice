@@ -5,7 +5,6 @@ import sys
 current_driver = None
 total = 0
 
-
 for line in sys.stdin:
     driver, count = line.strip().split("\t")
     count = int(count)
