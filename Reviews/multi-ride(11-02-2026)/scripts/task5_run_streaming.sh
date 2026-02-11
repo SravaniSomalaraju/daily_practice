@@ -3,6 +3,7 @@
 echo " delete the output directory if already exits"
 hdfs dfs -rm -r -f /rides/output/
 
+
 echo "start generating hadoop data.."
 hadoop jar $HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-*.jar \
 -input /rides/raw/uber-rides-dataset.csv \

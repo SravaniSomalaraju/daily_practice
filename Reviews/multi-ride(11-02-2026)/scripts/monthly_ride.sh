@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 HADOOP_STREAMING_JAR=$HADOOP_HOME/share/hadoop/tools/lib/hadoop-streaming-*.jar
 
 INPUT_PATH=/rides/raw/uber-rides-dataset.csv
