@@ -18,7 +18,6 @@
 # DoubleWritable
 # Numeric conversions
 
-
 INPUT_FILE=/rides/raw/uber-rides-dataset.csv
 OUTPUT_FILE=/rides/output/task4
 

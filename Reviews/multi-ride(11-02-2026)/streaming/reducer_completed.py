@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 import sys
 
 current_app = None
@@ -13,9 +12,10 @@ for line in sys.stdin:
     if current_app == app:
         total += count
     else:
-        if current_app is not None:
+        if current_app:
             print(f"{current_app}\t{total}")
         current_app = app
         total = count
-if current_app is not None:
+
+if current_app:
     print(f"{current_app}\t{total}")

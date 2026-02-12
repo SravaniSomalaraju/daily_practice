@@ -1,8 +1,6 @@
 # Start Hadoop services.
-
 start-dfs.sh
 start-yarn.sh
-
 # verify 
 jps
 

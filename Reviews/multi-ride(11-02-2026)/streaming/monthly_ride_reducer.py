@@ -16,7 +16,6 @@ for line in sys.stdin:
                 print(f"{current_app}\t{total}")
             current_app = app
             total = count
-            
 
 if current_app:
     print(f"{current_app}\t{total}")
